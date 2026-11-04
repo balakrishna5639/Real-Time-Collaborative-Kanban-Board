@@ -228,7 +228,7 @@ When multiple users collaborate simultaneously:
 ### Step 1: Clone & Install Dependencies
 ```bash
 # Clone repository
-git clone https://github.com/<your-repo>/real-time-collaborative-kanban.git
+git clone https://github.com/balakrishna5639/Real-Time-Collaborative-Kanban-Boardreal-time-collaborative-kanban.git
 cd real-time-collaborative-kanban
 
 # Install backend dependencies
