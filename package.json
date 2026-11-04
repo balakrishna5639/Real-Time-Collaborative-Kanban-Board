@@ -1,0 +1,26 @@
+{
+  "name": "real-time-collaborative-kanban",
+  "version": "1.0.0",
+  "description": "Multi-Organization Multi-Tenant Real-Time Collaborative Kanban Board",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "db:generate": "npm run db:generate --prefix backend",
+    "db:push": "npm run db:push --prefix backend",
+    "db:seed": "npm run db:seed --prefix backend",
+    "setup": "npm run install:all && npm run db:push && npm run db:seed",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test:backend": "npm run test --prefix backend"
+  },
+  "keywords": [
+    "kanban",
+    "multi-tenant",
+    "multi-organization",
+    "real-time",
+    "socketio",
+    "optimistic-concurrency"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
