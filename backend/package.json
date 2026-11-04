@@ -5,6 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
+    "build": "prisma generate --schema=prisma/schema.postgresql.prisma && prisma db push --schema=prisma/schema.postgresql.prisma && node prisma/seed.js",
     "dev": "nodemon src/server.js",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
