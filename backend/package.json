@@ -8,6 +8,7 @@
     "dev": "nodemon src/server.js",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
+    "db:push:pg": "prisma db push --schema=prisma/schema.postgresql.prisma",
     "db:seed": "node prisma/seed.js",
     "test": "node src/tests/run-tests.js"
   },
